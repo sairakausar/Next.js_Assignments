@@ -58,6 +58,26 @@ export default function Home() {
             height={500} // Set the height of the image
           />
         </div>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            border: "1px solid red",
+            // padding: "10px",
+            paddingTop: "0px",
+            paddingBottom: "2px",
+            paddingLeft: "10px",
+            paddingRight: "10px",
+            margin: "100px",
+          }}
+        >
+          <p>
+            The Future of the Web is Web 3.0, Metaverse, and Edge Computing.
+            Panaverse DAO is a movement to spread these technolgies globally. It
+            is community of Web 3 and Metaverse developers, designers, trainers,
+            startup founders and service providers.
+          </p>
+        </div>
 
         <h4>video form youtube link</h4>
         <iframe
