@@ -1,5 +1,7 @@
 import React from "react";
+import Image from "next/image";
 const headingstyle = { fontWeight: "bold" };
+import image from "../public/imagesss.png";
 
 // {
 //   /* The following line can be included in your src/index.js or App.js file */
@@ -48,7 +50,14 @@ export default function Home() {
             <br /> Islamabad, and Peshawar
           </h3>
         </div>
-        <div></div>
+        <div>
+          <Image
+            src={image} // Replace with the actual path to your image
+            alt="Description of the image"
+            width={500} // Set the width of the image
+            height={500} // Set the height of the image
+          />
+        </div>
 
         <h4>video form youtube link</h4>
         <iframe
