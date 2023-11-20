@@ -9,10 +9,23 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function Home() {
   return (
     <main>
-      <div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flexDirection: "column",
+        }}
+      >
         <h1>Hello World</h1>
         <div
           style={{
+            height: "300px",
+            width: "900px",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
             backgroundColor: "#15876A",
             textAlign: "center",
             color: "white",
